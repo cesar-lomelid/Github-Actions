@@ -1,0 +1,17 @@
+[debug] [2020-07-09T22:23:19.498Z] ----------------------------------------------------------------------
+[debug] [2020-07-09T22:23:19.500Z] Command:       /home/cesar/.nvm/versions/node/v13.12.0/bin/node /home/cesar/.nvm/versions/node/v13.12.0/bin/firebase login:ci --debug
+[debug] [2020-07-09T22:23:19.500Z] CLI Version:   8.4.3
+[debug] [2020-07-09T22:23:19.500Z] Platform:      linux
+[debug] [2020-07-09T22:23:19.501Z] Node Version:  v13.12.0
+[debug] [2020-07-09T22:23:19.509Z] Time:          Thu Jul 09 2020 17:23:19 GMT-0500 (Central Daylight Time)
+[debug] [2020-07-09T22:23:19.509Z] ----------------------------------------------------------------------
+[debug] [2020-07-09T22:23:19.509Z] 
+[info] 
+[info] Visit this URL on this device to log in:
+[info] https://accounts.google.com/o/oauth2/auth?client_id=563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com&scope=email%20openid%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcloudplatformprojects.readonly%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Ffirebase%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcloud-platform&response_type=code&state=99124269&redirect_uri=http%3A%2F%2Flocalhost%3A9005
+[info] 
+[info] Waiting for authentication...
+[debug] [2020-07-09T22:23:27.653Z] >>> HTTP REQUEST POST https://accounts.google.com/o/oauth2/token  
+ {"code":"4/1gHShi81s5XLOBkv8ytt8bXN2L9j9-HwQTZxg0_Mg5W63ToA77YHpDaQ5TiC1MWikiEqnbFBhgAHITpAI3ESoSA","client_id":"563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com","client_secret":"j9iVZfS8kkCEFUPaAeJV0sAi","redirect_uri":"http://localhost:9005","grant_type":"authorization_code"}
+[debug] [2020-07-09T22:23:27.901Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Thu, 09 Jul 2020 17:23:27 GMT","server":"scaffolding on HTTPServer2","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-29=\":443\"; ma=2592000,h3-27=\":443\"; ma=2592000,h3-25=\":443\"; ma=2592000,h3-T050=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[info] 
